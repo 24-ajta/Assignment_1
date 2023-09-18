@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+<style>
+    body{
+        background-image: linear-gradient(to bottom left,#a94fc2,#b3277b);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    #main {
+        position: absolute;
+        top: 20%;
+        left: 35%; 
+        align-items: center;
+    }
+    h1{
+        text-align: center;
+        color:darkred;
+    }
+    p{
+        font-size: 30px;
+        color: rgba(189, 2, 2, 0.836);
+    }
+    button{
+        width: 100px;
+        height: 45px;
+        border-radius: 20px;
+        position: absolute;
+        left: 40%;
+    }
+
+</style>
+    <div id="main">
+        <h1>Change Text while clicking a button</h1>
+        <p id="change_para">This text will be changed when you click the button</p>
+        <button class="btn btn-danger" onclick="myfun()">click me</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

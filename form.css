@@ -1,0 +1,22 @@
+body{
+    background-color:burlywood;
+}
+.myforms{
+    position: absolute;
+    left:855px; 
+    top: 100px;
+    border: 2px solid rgb(80, 4, 4);
+    border-radius: 20px;
+    padding: 50px;
+    
+}
+.myforms label{
+    position: absolute;
+    left: 60px;
+    color: rgb(193, 30, 63);
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
